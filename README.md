@@ -35,5 +35,19 @@ In this project I will do the following:
 - Conclude my findings (Model which is giving best f1 score and why)
 
 
+## Conclusion:
+
+Best Model - 
+
+Model Stats - 
+
+
+Why?
+
+
+Overall conclusion - 
+
+**In a medical context, false positives can lead to unnecessary treatments or tests, while false negatives can result in missed diagnoses and delayed treatment, so it is important to strive for a balance between precision and recall, and to achieve a high F1 score, in order to minimize the risk of misdiagnosis or mistreatment.**
+
 Link to dataset:
 https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset
