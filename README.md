@@ -37,17 +37,18 @@ In this project I will do the following:
 
 ## Conclusion:
 
-Best Model - 
+Best Model - The overall best model was SVM with an RBF kernel
 
-Model Stats - 
+Overall conclusion - The overall outcome of this project was very low F1 scores - most likely due to the target class imbalance, and overall poor performance. When training the models, due to the imbalanced dataset, the modelel become biased and overfit towards the majority class, which resulted in poor performance on the minority class. This is because the models learned to predict the majority class more frequently, leading to a higher accuracy on the majority class and a lower accuracy on the minority class and overall poor performance and ability to generalize. 
 
-
-Why?
-
-
-Overall conclusion - 
 
 **In a medical context, false positives can lead to unnecessary treatments or tests, while false negatives can result in missed diagnoses and delayed treatment, so it is important to strive for a balance between precision and recall, and to achieve a high F1 score, in order to minimize the risk of misdiagnosis or mistreatment.**
 
+
+## Additional Steps:
+Due to class imbalance in the dataset, several techniques were done additionaly in an attempt to address this issue including: Feature selection and various sampling techniques including oversampling, undersampling, SMOTE, and ASYDM. The code ML_Sampling will showcase the results of the additional steps. 
+
+
+---
 Link to dataset:
 https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset
